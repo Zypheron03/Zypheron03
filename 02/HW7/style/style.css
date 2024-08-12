@@ -597,11 +597,60 @@ h2 span{
         display: flex;
         justify-content: space-between;
         width: 103px;
-        padding-right: 15px;
+        padding-right: 20px;  
+    }
+    .images{
+        margin-top: 12px;
+        width: 100%;
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;  
+    }
+    .image{
+       margin-top: 30px;
+       display: flex;
+       justify-content: center;
+       width: 50%;
+    }
+    .img{
+        width: 50%;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1270px) {
+    .date{
+            
+        display: flex;
+        flex-direction: row;
+        font-size: 25px;
+        width: 100%;
+        height: auto;
+        
         
     }
+    .date h2{
+    font-size: 25px;
+    margin: 5px;
+    }
+   .date h2 span{
 
-
-
-
+    border-left:none;
+    }
+    .gray{
+        color: rgb(167, 166, 166);
+    }
+    .content-main{
+        width: 90%;
+        height: auto;
+        color: rgb(255, 255, 255);
+        
+        margin-left: 30px;
+    }
+    .popular{
+        width: 80%;
+    }
+    .images{
+        width: 80%;
+    }
+    
 }
